@@ -1,50 +1,56 @@
-Laptop Setup Concierge Web 🌐
+# 💻 Laptop Setup Concierge
 
-Laptop Setup Concierge Web is a Java-based web application that guides users in setting up a new laptop. It uses Servlets and JSP for backend and frontend operations.
+**Laptop Setup Concierge** is a Java-based web application that helps users setup a new laptop with recommended software and guides using a simple web interface. It uses **Servlets** and **JSP** with a clean folder structure and MVC design.
 
-🌟 Features
+---
 
-Step-by-step laptop setup guide via web interface
+## 🚀 Features
 
-Displays software installation instructions and system configuration tips
+✔ Step-by-step laptop setup guide via web pages  
+✔ Display recommended apps & configuration tips  
+✔ Simple and user-friendly JSP interface  
+✔ Uses Servlets for backend logic and Controllers  
+✔ Organized MVC-style project structure
 
-Easy navigation with JSP pages (index.jsp, apps.jsp)
+---
 
-MVC structure using Servlets (Controller), DAO & Model (Data), and JSP (View)
+## 🛠️ Technologies
 
-🛠 Technologies Used
+- Java (Servlets, JDBC)  
+- JSP (Java Server Pages)  
+- Apache Tomcat (or any servlet container)  
+- HTML, CSS (frontend views)
 
-Java (Servlets, JDBC)
+---
 
-JSP (Java Server Pages)
-
-OOP concepts: Encapsulation, Inheritance
-
-Web application folder structure with WEB-INF and META-INF
-
-🚀 How to Run
-
-Clone the repository:
-
-git clone <repository-url>
-
-Import the project in any IDE supporting Java Web Apps (Eclipse, IntelliJ).
-
-Deploy on Apache Tomcat or any servlet container.
-
-Open http://localhost:8080/LaptopSetupWeb/ in browser.
-
-Folder Structure
+## 📁 Project Structure
 
 LaptopSetupWeb/
 ├── src/main/java/com/laptopsetup
-│   ├── dao/       # Data access objects
-│   ├── model/     # Model classes
-│   └── servlet/   # Servlets (Controller)
+│ ├── dao/ # Database/Data access layer
+│ ├── model/ # Model classes (data objects)
+│ └── servlet/ # Servlets (Controllers)
 ├── src/main/webapp
-│   ├── index.jsp  # Homepage
-│   ├── apps.jsp   # Apps setup page
-│   ├── WEB-INF/   # Web config files
-│   └── META-INF/  
+│ ├── index.jsp # Homepage
+│ ├── apps.jsp # Apps setup page
+│ ├── WEB-INF/ # Web config (web.xml)
+│ └── META-INF/
 └── README.md
 
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository:  
+   
+   git clone https://github.com/shivani-009/Laptop_Setup_Concierge.git
+
+2. Import the project in a Java web IDE (Eclipse/IntelliJ).
+
+3. Add Apache Tomcat as your server.
+
+4. Build and run the project.
+
+5. Open in browser:
+   http://localhost:8080/LaptopSetupWeb/
